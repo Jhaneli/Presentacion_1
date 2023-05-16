@@ -1,0 +1,36 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos de la presentación */
+.slide {
+  display: none;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.active {
+  display: block;
+}
+
+/* Estilos de los botones de navegación */
+.nav-buttons {
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.nav-buttons button:hover {
+  background-color: #45a049;
+}
